@@ -46,15 +46,15 @@ che cosa succede se utente clicca sull'avvia più volte?
 
 ### INPUT
 
-- [] Bottone di avvio countdown
-    - [] addEventListener per percepire il bottone di avvio
-    - [] addEventListener per percepire il bottone di stop
-    - [] Lanciare funzione avviaCronometro()
+- [X] Bottone di avvio countdown
+    - [X] addEventListener per percepire il bottone di avvio
+    - [X] addEventListener per percepire il bottone di stop
+    - [X] Lanciare funzione avviaCronometro()
 
 ### ESECUZIONE LOGICA
 
 - [] Countdown funzionante
-    - [] Dentro avviaCronometro() con setIntervall()
+    - [X] Dentro avviaCronometro() con setIntervall()
     - [] Quando si preme il bottone dello Stop usiamo la funzione clearIntervall(avviaCronometro)
 
 ### OUTPUT
