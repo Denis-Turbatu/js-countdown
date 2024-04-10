@@ -1,6 +1,14 @@
 const btnStart = document.getElementById('start');
-console.log(btnStart);
+let inizioSecondi = 1;
+const secondsTime = document.getElementById("second");
+console.log(secondsTime);
 
 btnStart.addEventListener("click", function(){
     avviaCountdown();
+    setInterval(function () {
+            stampaOra(inizioSecondi);
+            console.log(inizioSecondi);
+            inizioSecondi++;
+        }, 1000);    
+    
 }); 
