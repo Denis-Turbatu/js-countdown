@@ -3,17 +3,18 @@ function avviaCountdown(){
 }
 
 function messaggio(){
-    console.log("Buon Anno!");
+    resultElem.innerHTML = "Buon Anno!";
 }
 
 function stopMessaggio() {
-    console.log("SOno attivo");
-    clearInterval(setInterval, 10000);
+    console.log("Ho fermato tutto!");
+    clearInterval(intervallo);
 }
 
+
 function stampaOra(s) {
-    let upadateSecond = document.getElementById("second").innerText = "0" + s.toString();
-    if(parseInt(upadateSecond) > 9){
-        upadateSecond = document.getElementById("second").innerText = s.toString();
+    let updateSecond = document.getElementById("second").innerText = "0" + s.toString();
+    if(parseInt(updateSecond) > 9){
+        updateSecond = document.getElementById("second").innerText = s.toString();
     }
 }
