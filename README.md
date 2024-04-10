@@ -19,20 +19,20 @@ che cosa succede se utente clicca sull'avvia più volte?
 
 ### INPUT
 
-- [] Bottone di avvio countdown
-    - [] addEventListener per percepire il bottone cliccato
-    - [] Lanciare funzione avviaCountdown()
+- [X] Bottone di avvio countdown
+    - [X] addEventListener per percepire il bottone cliccato
+    - [X] Lanciare funzione avviaCountdown()
 
 ### ESECUZIONE LOGICA
 
-- [] Countdown funzionante
-    - [] Dentro avviaCountdown() con setTimeout() impostiamo 10sec di countdown
+- [X] Countdown funzionante
+    - [X] Dentro avviaCountdown() con setTimeout() impostiamo 10sec di countdown
     - [] Ad ogni secondo andiamo a ritroso con la stampa dei numeri, quindi setTimeout aumenta di un secondo mentre la scritta scende di un secondo
 
 ### OUTPUT
 
-- [] Stampa risultato
-    - [] Alla fine del countdown impostiamo una condizione dove lancerà il nostro messaggio di 'Buon Anno'
+- [X] Stampa risultato
+    - [X] Alla fine del countdown impostiamo una condizione dove lancerà il nostro messaggio di 'Buon Anno'
     ```
      Se(setTimeout == finito){
         stampa "Buon Anno"
