@@ -4,7 +4,7 @@ function avviaCronometro(){
 
 function stopCronometro() {
     console.log("Ho fermato tutto!");
-    clearInterval(avviaCronometro);
+    clearInterval(intervallo);
 }
 
 

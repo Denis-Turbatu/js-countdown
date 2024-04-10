@@ -59,5 +59,5 @@ che cosa succede se utente clicca sull'avvia più volte?
 
 ### OUTPUT
 
-- [] Stampa risultato
-    - [] Durante il funzionamento del cronometro verrà mostrato con l'aggiornamento ogni secondo
+- [X] Stampa risultato
+    - [X] Durante il funzionamento del cronometro verrà mostrato con l'aggiornamento ogni secondo
