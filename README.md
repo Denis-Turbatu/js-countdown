@@ -27,7 +27,7 @@ che cosa succede se utente clicca sull'avvia più volte?
 
 - [X] Countdown funzionante
     - [X] Dentro avviaCountdown() con setTimeout() impostiamo 10sec di countdown
-    - [] Ad ogni secondo andiamo a ritroso con la stampa dei numeri, quindi setTimeout aumenta di un secondo mentre la scritta scende di un secondo
+    - [X] Ad ogni secondo andiamo a ritroso con la stampa dei numeri, quindi setTimeout aumenta di un secondo mentre la scritta scende di un secondo
 
 ### OUTPUT
 
